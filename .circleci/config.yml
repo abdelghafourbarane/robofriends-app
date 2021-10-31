@@ -21,7 +21,7 @@ jobs:
     docker:
       - image: circleci/node:14
     steps:
-      - chekout
+      - checkout
       - run: echo "hello !!!!"
 
 workflows:
